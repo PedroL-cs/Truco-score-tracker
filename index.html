@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-switch@2.0.0/dist/css/bulma-switch.min.css">
+
+</head>
+<body>
+    <section class="section">
+        <div class="container ">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="Img/Baralho.jpg" alt="Baralho">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                        <p class="card-header-title">
+                            Placar de pontos | Truco | &#9824 &#9829 &#9827 &#9830
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                        </header>
+                        <div class="card-content">
+                        <div class="content">
+                            <h1 class="title is-size-1"><span id="p1Display">0</span> a <span id="p2Display">0</span></h1>
+                            <p class="subtitle" id="subtitle">Use os botões para atualizar o placar</p>
+                        </div>
+                        </div>
+                        <footer class="card-footer">
+                            <div class="columns is-mobile is-multiline" style="width: 100%; margin: 0;">
+                                <div class="column is-half is-full-mobile">
+                                    <button class="button is-info is-fullwidth" id="p1Button">+1 Jogador Um &#9824</button>
+                                </div>
+                                <div class="column is-half is-full-mobile">
+                                    <button class="button is-info is-fullwidth" id="p2Button">+1 Jogador Dois &#9827</button>
+                                </div>
+                                <div class="column is-half is-full-mobile">
+                                    <button class="button is-warning is-fullwidth" id="truco">Truco!</button>
+                                </div>
+                                <div class="column is-half is-full-mobile">
+                                    <button class="button is-danger is-fullwidth" id="reset">Zerar</button>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="field has-text-centered">
+        <input id="switchRoundedInfo" type="checkbox" name="switchRoundedInfo" class="switch is-rounded is-info" checked="checked">
+        <label for="switchRoundedInfo">Mudar tema</label>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
