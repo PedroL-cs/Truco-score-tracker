@@ -34,6 +34,7 @@ function updateScore(player, opponent) {
         }
 
         resetTruco();
+        updateTrucoButtons();
     }
 }
 
