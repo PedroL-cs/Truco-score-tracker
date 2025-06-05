@@ -25,7 +25,7 @@ Um placar interativo para partidas de Truco, com suporte à contagem de pontos, 
 
 ## 🧪 Como usar
 
-1. [Acesse o link](pedrol-cs.github.io/Truco-score-tracker/) para começar a jogar.
+1. [Acesse o link](https://pedrol-cs.github.io/Truco-score-tracker) para começar a jogar (abrirá no navegador).
 2. Clique nos botões de cada jogador para adicionar pontos.
 3. Use o botão "Truco!" para aumentar o valor da rodada.
 4. Clique em "Zerar" para resetar a partida ou "Cancelar truco" se quiser voltar o valor da rodada para 1.
